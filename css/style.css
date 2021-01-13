@@ -1,0 +1,9 @@
+body {
+  background-color: lightyellow;
+}
+
+div{
+  background-color: lightblue;
+  margin-bottom: 6px;
+  text-align: center;
+}
