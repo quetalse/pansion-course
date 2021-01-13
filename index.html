@@ -8,25 +8,35 @@
   <meta name="github" content="https://github.com/quetalse/pansion-course">
   <link rel="stylesheet" href="./css/style.css">
   <style>
-  	body {
-  		font-family: "Georgia", sans-serif;
-		font-size: 14px;
-		line-height: 18px;
-		color: #000000;
-  	}
-
-	h1 {
-		color: black;
-		font-size: 20px
-	}
   </style>
 </head>
 <body>
-	<div class="container">
-		<div class="element-1">FIRST ELEMENT</div>
-		<!-- элемент имеет относительное позиционирование и смещён на 20px 	вверх и влево -->  
-		<div class="element-2" style="position: relative; top: 60px; 	left: -	20px; background-color: yellow">SECOND ELEMENT</div>
-		<div class="element-3">THIRD ELEMENT</div>
+	<div class=container>
+		<h1 class="app-title">Изучаем селекторы</h1>
+		<div class="card">
+			<h2>Карточка фильма #1</h2>
+			<img width=200px src="./img/subway.jpg" alt="subway">
+			<div class="card-info">
+				<p>Дата выхода: 2000</p>
+				<p class="genre">Жанр: Драма</p>
+			</div>
+		</div>
+		<div id="oscar" class="card">
+			<h2 class="card-title">Карточка фильма #1</h2>
+			<img width=200px src="./img/subway.jpg" alt="subway">
+			<div class="card-info">
+				<p>Дата выхода: 2000</p>
+				<p class="genre">Жанр: Драма</p>
+			</div>
+		</div>
+		<div class="card">
+			<h2>Карточка фильма #1</h2>
+			<img width=200px src="./img/subway.jpg" alt="subway">
+			<div class="card-info">
+				<p>Дата выхода: 2000</p>
+				<p class="genre">Жанр: Драма</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

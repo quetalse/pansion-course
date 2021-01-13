@@ -1,9 +1,33 @@
+/**универсальный селектор**/
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
   background-color: lightyellow;
 }
 
-div{
-  background-color: lightblue;
-  margin-bottom: 6px;
-  text-align: center;
+/**селектор типа**/
+h1{
+	color: blue;
+	font-style: italic;
+	text-align: center;
+}
+
+/**селеткор класса**/
+.card{
+	width: 400px;
+	border: 1px solid black;
+	text-align:center;
+}
+
+/**селеткор идентификатора**/
+#oscar{
+	background-color: pink
+}
+
+/** составные селекторы **/
+.app-title, .card-title{
+	text-decoration: underline;
 }
