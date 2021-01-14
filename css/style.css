@@ -18,6 +18,7 @@ h1{
 /**селеткор класса**/
 .card{
 	width: 400px;
+	height: 300px;
 	border: 1px solid black;
 	text-align:center;
 }
@@ -30,4 +31,40 @@ h1{
 /** составные селекторы **/
 .app-title, .card-title{
 	text-decoration: underline;
+}
+
+/**Вложенные селекторы**/
+#oscar .card-info p{
+	font-size: 20px;
+}
+
+/**Вложенные селекторы**/
+.container > div{
+	position: absolute;
+}
+
+/**Вложенные селекторы**/
+.container > .card1{
+	left: 0;
+}
+
+/**Вложенные селекторы**/
+.container > .card2{
+	left: 420px;
+}
+
+/**Вложенные селекторы**/
+.container > .card3{
+	left: 840px;
+}
+
+/**Вложенные селекторы**/
+ p + ul{
+	list-style: none;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.card-info ul{
+	list-style: none
 }
